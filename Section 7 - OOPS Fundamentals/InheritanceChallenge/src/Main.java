@@ -13,9 +13,17 @@ public class Main {
         System.out.println(joe);
         System.out.println("_ _ _ _ _ _");
 
-        SalariedEmployee sarah = new SalariedEmployee("Sarah", "01/04/1998", "01/08/2022",
-                20000.00, false);
-
+        SalariedEmployee sarah = new SalariedEmployee("Sarah", "01/04/1998",
+                "01/08/2022",20000.00);
+        System.out.println("Sarah's Paycheck = $" + sarah.collectPay());
         sarah.retire();
+        System.out.println("Sarah's Pension check = $" + sarah.collectPay());
+        System.out.println(sarah);
+
+        HourlyEmployee marie = new HourlyEmployee("Marie", "06/10/1990",
+                "08/12/2021", 15);
+        System.out.println(marie);
+        System.out.println("Mary's Paycheck = $" + marie.collectPay());
+        System.out.println("Mary's Holiday Pay = $" + marie.getDoublePay());
     }
 }

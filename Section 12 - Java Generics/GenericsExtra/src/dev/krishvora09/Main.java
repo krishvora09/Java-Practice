@@ -2,9 +2,19 @@ package dev.krishvora09;
 
 import dev.krishvora09.model.CurrentStudent;
 import dev.krishvora09.model.Student;
+import dev.krishvora09.util.QueryItem;
+import dev.krishvora09.util.QueryList;
 
 import java.util.ArrayList;
 import java.util.List;
+
+record Employee(String name) implements QueryItem {
+
+    @Override
+    public boolean matchFieldValue(String fieldName, String value) {
+        return false;
+    }
+}
 
 public class Main {
 
@@ -31,6 +41,17 @@ public class Main {
                 "Barry", "Charlie")));
         testList(new ArrayList<Integer>(List.of(1, 2, 3)));
 
+        var queryList = new QueryList<>(currentstudents);
+        var matches = queryList.getMatches(
+                "Course", "Python");
+        printMoreLists(matches);
+
+        var students2021 = QueryList.getMatches(students,
+                "YearStarted", "2021");
+        printMoreLists(students2021);
+
+//        QueryList<Employee> employeeList = new QueryList<>();
+
     }
 
     public static void printMoreLists(List<? extends Student> students) {
@@ -39,7 +60,8 @@ public class Main {
 //        students.set(0, last);
 
         for (var student: students) {
-            System.out.println(student.getYearStarted() + ": " + student);
+//            System.out.println(student.getYearStarted() + ": " + student);
+            System.out.println(student);
         }
         System.out.println();
     }

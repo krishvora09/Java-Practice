@@ -24,6 +24,6 @@ public class Main {
         list.removeIf(s -> s.charAt(0) == 'G');
         System.out.println(list);
         System.out.println("Gary is in the list? " + list.contains("Gary"));
-        list.sort();
+//        list.sort();
     }
 }

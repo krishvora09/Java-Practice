@@ -1,0 +1,5 @@
+Directory Contents: 
+C:\Users\user\Desktop\Java Ultimate Masterclass\Section 20 - Java IO\DirectoryFileChallenge\public\assests\icons
+C:\Users\user\Desktop\Java Ultimate Masterclass\Section 20 - Java IO\DirectoryFileChallenge\public\assests\icons\index.txt
+C:\Users\user\Desktop\Java Ultimate Masterclass\Section 20 - Java IO\DirectoryFileChallenge\public\assests\icons\indexCopy.txt
+Generated: 2026-02-18T07:56:34.604847100

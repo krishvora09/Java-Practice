@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="153ed92e-8b42-4c10-87ff-2240cd7dbda9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ConsumerProducer/src/dev/krishvora09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultipleThreads/src/dev/krishvora09/CachedData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultipleThreads/src/dev/krishvora09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultipleThreads/src/dev/krishvora09/ThreadColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunningThreads/src/dev/krishvora09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Synchronization/src/dev/krishvora09/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Synchronization/src/dev/krishvora09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SynchronizationChallenge/src/dev/krishvora09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SynchronizationChallenge/src/dev/krishvora09/ShoeWarehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadChallenge/src/dev/krishvora09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Threads/src/dev/krishvora09/CustomThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Threads/src/dev/krishvora09/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads/src/dev/krishvora09/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3A1UdPIt65PA6vjJWas5D7rys48" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="153ed92e-8b42-4c10-87ff-2240cd7dbda9" name="Changes" comment="" />
+      <created>1771759658153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771759658153</updated>
+    </task>
+    <servers />
+  </component>
+</project>
